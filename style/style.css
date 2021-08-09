@@ -1,0 +1,161 @@
+body
+{
+    background-color: #8ba1bb;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+p.categorie
+{
+  background-color: black;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding:10px 20px ;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+div.categorie
+{
+    margin-top: 60px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: -20px;
+    
+}
+
+h1
+{
+    text-align: center;
+}
+div.contenu
+{
+    background-color: white;
+    margin: 0px 10% 80px 10%;
+    padding: 30px;
+    min-width: 541px;
+    box-shadow: -1px -1px 19px 6px #2f2b2bc9;
+} 
+
+.image
+{
+    text-align: center;
+    width: 100%;
+    display: block;
+
+}
+
+p.description
+{
+    text-align: center;
+    max-width: 400px;/*Taille maxi*/
+    display: inline-block;
+    font-size: 14px;
+}
+
+div.description
+{
+     text-align: center;
+}
+
+.separateur
+{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+}
+.bloc_image
+{
+    position: relative;
+}
+.bloc_image img
+{
+    width: 100%;
+    text-align: center;
+    display: block;
+    
+}
+
+img.info
+{
+    max-height: 400px;
+    object-fit: cover;
+    min-height:200px ;/*Meme si on a pas d'image on a un emplacement*/
+    background-color: aquamarine;
+}
+.bloc_image table
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #6c229d54;
+    height: 90px;
+    
+}
+
+
+
+.ensemble
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.colonne h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 5px solid #6c229d54;
+    padding-bottom: 5px;
+    
+}
+
+div.colonne
+{
+    width: 45%;
+    margin-top: 20px;
+}
+
+div.ingredient p
+{
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    padding: 8px 0px;
+    margin-top: 4px;
+    margin-bottom:0;
+}
+
+table.preperation
+{
+    vertical-align: top;
+}
+table.preparation p.numero
+{
+    background-color:#6c229d54;
+    color:white ;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    padding-top: 4px;
+    box-sizing: border-box;/*Calculer et conserver les longueur d'origine*/
+    border-radius: 50%;
+    margin: 0;
+}
+
+td.preparation_etape
+{
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+table.preparation tr{
+    height: 40px;
+}
